@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card, .cardSmart, .cardFull, .cardUltra{
+    width: 380px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 0 10px rgba(6, 6, 6, 0.918);
+}
+
+.card {
+    border-top: 5px solid #ff8000;
+    padding: 0px;
+}
+
+.cardSmart {
+    padding: 0px;
+}
+
+.cardFull {
+    border-top: 5px solid #ff8000;
+    padding: 0px;
+}
+
+.cardUltra {
+    border-top: 5px solid #ff8000;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    padding-left: 18px;
+    font-size: 18px;
+}
+
+button {
+    justify-content: end;
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #ff8000;
+    color: rgb(0, 0, 0);                  
+    padding: 30px;
+    text-align: center;        
+    font-weight: bold;         
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.header1 {
+    background-color: #ff8000;
+    color: rgb(0, 0, 0);                  
+    padding: 30px;
+    text-align: center;        
+    font-weight: bold;         
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.header2 {
+    background-color: #ff8000;
+    color: rgb(0, 0, 0);                  
+    padding: 30px;
+    text-align: center;        
+    font-weight: bold;         
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.header3 {
+    background-color: #ff8000;
+    color: rgb(0, 0, 0);                  
+    padding: 30px;
+    text-align: center;        
+    font-weight: bold;         
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
